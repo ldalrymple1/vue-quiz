@@ -79,7 +79,7 @@
           :class="[index === logoIndex ? 'selected' : '']"
           :key="index"
         >
-          <img :src="brands.image" class="brand-img" />
+          <img :src="brands.image" class="brand-img" alt="brands" />
         </div>
       </div>
     </div>
